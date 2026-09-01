@@ -1,12 +1,9 @@
-import { useQuery } from "@tanstack/react-query";
 import DOMPurify from "dompurify";
 import parse, { type HTMLReactParserOptions } from "html-react-parser";
 import { CircleQuestionMark } from "lucide-react";
 import { Link } from "react-router";
-import httpRequest from "@/api/httpRequest";
 import ImageGallery from "@/components/pages/TourDetails/ImageGallery";
 import DisplayError from "@/components/shared/DisplayError";
-import Loading from "@/components/shared/Loading";
 import TextHeading from "@/components/shared/TextHeader";
 import { Button } from "@/components/ui/button";
 import {
@@ -23,22 +20,16 @@ import {
 	inflatedValueUSD,
 } from "@/lib/saleValues";
 import type { ModelHome } from "@/types/types";
+import { modelHomeData } from "../../../db/db.json";
 
 interface Props {
 	id: number;
 }
 
 export default function HomeDetails({ id }: Props) {
-	const { isPending, error, data } = useQuery({
-		queryKey: [`home-${id}`],
-		queryFn: () => httpRequest(`/homes/${id}`),
-	});
+	const homeData = modelHomeData.find((home) => home.id === id) as ModelHome;
 
-	if (isPending) return <Loading />;
-
-	if (error) return <DisplayError error={error} />;
-
-	const home = data as ModelHome;
+	if (!homeData) return <DisplayError msg="That home does not exist!" />;
 
 	const {
 		architect,
@@ -49,7 +40,7 @@ export default function HomeDetails({ id }: Props) {
 		notes,
 		value_current: currVal,
 		value_original: origVal,
-	} = home;
+	} = homeData;
 
 	const html = DOMPurify.sanitize(notes, {
 		USE_PROFILES: { html: true },
@@ -157,7 +148,7 @@ export default function HomeDetails({ id }: Props) {
 				<TextHeading element="h2" text="Notes" />
 				{parsedHtml}
 			</section>
-			<ImageGallery id={id} gallery={images.gallery} city={home.city} />
+			<ImageGallery id={id} gallery={images.gallery} city={city} />
 		</div>
 	);
 }
