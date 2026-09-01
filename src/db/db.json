@@ -1,0 +1,39 @@
+{
+  "modelHomeData": [
+    {
+      "id": 1,
+      "city": "San Francisco",
+      "county": "San Francisco",
+      "neighborhood_district": "Pine Lake Park",
+      "architect": "Vincent Raney",
+      "architectural_style": "California Vernacular",
+      "interior_decorator": null,
+      "value_original": null,
+      "value_current": 1650000,
+      "notes": "<p>The official Model Home #1 was located in the Model Home Village on Treasure Island and was known as the Host House. It was, unfortunately, demolished at the end of the Fair. A reasonable substitution may be made using the this house, which was known as the Sunshine House and was affiliated with the Model Home program but was not part of the tour. Also known as the \"House Of Tomorrow\" and located adjacent to the Host House on T.I., this dwelling was toured by thousands of visitors to the Fair. The Sunshine House was raffled off at the end of the Fair, barged to the City, and transported in toto to its present location.</p><p>San Francisco architect Vincent Raney (1905-2001) is best known for his design of Century 21 domed movie theaters, the first of which opened in 1964 across from the Winchester Mystery House in San Jose.  At one time Raney's domed theaters were to be found through the West; alas, most of these have been demolished. Although not domes, the BAL theater in San Leandro and the Sierra theater in Delano remain standing.</p>",
+      "images": {
+        "thumbnail": "1-1",
+        "gallery": ["1-1", "1-2"]
+      }
+    },
+    {
+      "id": 2,
+      "city": "San Francisco",
+      "county": "San Francisco",
+      "neighborhood_district": "Lakeside",
+      "architect": "Harold G. Stoner",
+      "architectural_style": "West Indian Colonial",
+      "interior_decorator": "Alexander Penedel of John Bruner Co., San Francisco",
+      "value_original": 21500,
+      "value_current": 2700000,
+      "notes": "<p>Prolific architect Harold G. Stoner (1890-1971) designed numerous homes in San Francisco, particularly south and west of Twin Peaks, and elsewhere in the Bay Area (see <a href='/homes/6'>Model Home #6</a>). Stoner was adept in many different styles, including the restrained elegance of this house. In another connection to GGIE, Stoner designed the building which housed Sally Rand's Nude Ranch in the \"Gayway\" amusement zone! For more information on the architect see <cite>Bay Area Beauty: The Artistry Of Harold G. Stoner</cite> by Jacqui Proctor.</p><p>Outwardly unchanged from 1939 appearance.</p>",
+      "images": {
+        "thumbnail": "2-1",
+        "gallery": [
+          "2-1",
+          "2-2"
+        ]
+      }
+    }
+  ]
+}
