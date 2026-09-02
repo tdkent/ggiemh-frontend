@@ -14,13 +14,13 @@ import {
 	PopoverTitle,
 	PopoverTrigger,
 } from "@/components/ui/popover";
+import { modelHomeData } from "@/db/db.json";
 import {
 	calculateFOVI,
 	convertToUSD,
 	inflatedValueUSD,
 } from "@/lib/saleValues";
 import type { ModelHome } from "@/types/types";
-import { modelHomeData } from "../../../db/db.json";
 
 interface Props {
 	id: number;
