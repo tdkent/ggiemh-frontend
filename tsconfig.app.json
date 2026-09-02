@@ -35,6 +35,9 @@
 		"erasableSyntaxOnly": true,
 		"noFallthroughCasesInSwitch": true,
 		"noUncheckedSideEffectImports": true,
+
+		/* Misc */
+		"ignoreDeprecations": "6.0"
 	},
 	"include": ["src"]
 }
