@@ -29,13 +29,19 @@ describe("The list of homes", () => {
 		const list = screen.getByRole("list");
 
 		const item1 = list.children.item(0) as Element;
-		expect(item1.textContent).toContain("City A");
+		expect(item1.textContent).toContain(
+			"Model Home #4City: BelvedereCounty: Marin",
+		);
 
 		const item2 = list.children.item(1) as Element;
-		expect(item2.textContent).toContain("City B");
+		expect(item2.textContent).toContain(
+			"Model Home #27City: BerkeleyCounty: Alameda",
+		);
 
 		const item3 = list.children.item(2) as Element;
-		expect(item3.textContent).toContain("City C");
+		expect(item3.textContent).toContain(
+			"Model Home #28City: BerkeleyCounty: Alameda",
+		);
 	});
 
 	it("sorts homes alphabetically by County", async () => {
@@ -47,13 +53,19 @@ describe("The list of homes", () => {
 		const list = screen.getByRole("list");
 
 		const item1 = list.children.item(0) as Element;
-		expect(item1.textContent).toContain("County A");
+		expect(item1.textContent).toContain(
+			"Model Home #19City: San LeandroCounty: Alameda",
+		);
 
 		const item2 = list.children.item(1) as Element;
-		expect(item2.textContent).toContain("County B");
+		expect(item2.textContent).toContain(
+			"Model Home #20City: OaklandCounty: Alameda",
+		);
 
 		const item3 = list.children.item(2) as Element;
-		expect(item3.textContent).toContain("County C");
+		expect(item3.textContent).toContain(
+			"Model Home #21City: OaklandCounty: Alameda",
+		);
 	});
 	it("can be sorted by City, then Number", async () => {
 		renderWithClient(<TourList />, ["/homes"]);

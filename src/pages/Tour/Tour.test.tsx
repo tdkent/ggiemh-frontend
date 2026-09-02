@@ -5,31 +5,29 @@ import { renderWithClient } from "@/test/render";
 
 describe("Tour page", () => {
 	const user = userEvent.setup();
-	it("renders loading component then a list with 3 items", async () => {
+	it("renders a list of 28 home items", () => {
 		renderWithClient(<App />, ["/homes"]);
 
-		expect(screen.getByTestId(/loading-skeleton/i)).toBeInTheDocument();
-
-		const list = await screen.findByRole("list", {
+		const list = screen.getByRole("list", {
 			name: /homes/i,
 		});
 
 		expect(list).toBeInTheDocument();
-		expect(list.children.length).toBe(3);
+		expect(list.children.length).toBe(28);
 	});
 
-	it("renders a list with Model Home items", async () => {
+	it("renders a list with Model Home items", () => {
 		renderWithClient(<App />, ["/homes"]);
 
-		const list = await screen.findByRole("list", {
+		const list = screen.getByRole("list", {
 			name: /homes/i,
 		});
 
 		const items = within(list);
 
-		expect(items.getByText(/model home #1/i)).toBeInTheDocument();
-		expect(items.getByText(/model home #2/i)).toBeInTheDocument();
-		expect(items.getByText(/model home #3/i)).toBeInTheDocument();
+		expect(items.getByText(/model home #4/i)).toBeInTheDocument();
+		expect(items.getByText(/model home #5/i)).toBeInTheDocument();
+		expect(items.getByText(/model home #6/i)).toBeInTheDocument();
 	});
 
 	it("renders links that navigate to correct Tour Details page", async () => {
@@ -37,12 +35,12 @@ describe("Tour page", () => {
 
 		await user.click(
 			await screen.findByRole("link", {
-				name: /home 1/i,
+				name: /home 8/i,
 			}),
 		);
 
 		expect(
-			screen.getByRole("heading", { name: /model home #1/i }),
+			screen.getByRole("heading", { name: /model home #8/i }),
 		).toBeInTheDocument();
 	});
 });

@@ -1,26 +1,18 @@
-import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
-import httpRequest from "@/api/httpRequest";
 import SortList from "@/components/pages/Tour/SortList";
 import TourListItem from "@/components/pages/Tour/TourListItem";
 import DisplayError from "@/components/shared/DisplayError";
-import Loading from "@/components/shared/Loading";
+import { modelHomeData } from "@/db/db.json";
 import sortHomes from "@/helpers/sortHomes";
 import type { ModelHome } from "@/types/types";
 import { type SortOptions, sortOptions } from "@/types/types";
 
 export default function TourList() {
-	const { isPending, error, data } = useQuery({
-		queryKey: ["homes"],
-		queryFn: () => httpRequest("/homes"),
-	});
-
 	const [sortOption, setSortOption] = useState<SortOptions>(sortOptions[0]);
 
-	if (isPending) return <Loading />;
-	if (error) return <DisplayError error={error} />;
+	if (!modelHomeData.length) return <DisplayError msg="Unable to load data!" />;
 
-	const homes = data as ModelHome[];
+	const homes = modelHomeData as ModelHome[];
 	const sorted = sortHomes(homes, sortOption);
 
 	return (

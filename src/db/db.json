@@ -1,0 +1,520 @@
+{
+  "modelHomeData": [
+    {
+      "id": 1,
+      "city": "San Francisco",
+      "county": "San Francisco",
+      "neighborhood_district": "Pine Lake Park",
+      "architect": "Vincent Raney",
+      "architectural_style": "California Vernacular",
+      "interior_decorator": null,
+      "value_original": null,
+      "value_current": 1650000,
+      "notes": "<p>The official Model Home #1 was located in the Model Home Village on Treasure Island and was known as the Host House. It was, unfortunately, demolished at the end of the Fair. A reasonable substitution may be made using the this house, which was known as the Sunshine House and was affiliated with the Model Home program but was not part of the tour. Also known as the \"House Of Tomorrow\" and located adjacent to the Host House on T.I., this dwelling was toured by thousands of visitors to the Fair. The Sunshine House was raffled off at the end of the Fair, barged to the City, and transported in toto to its present location.</p><p>San Francisco architect Vincent Raney (1905-2001) is best known for his design of Century 21 domed movie theaters, the first of which opened in 1964 across from the Winchester Mystery House in San Jose.  At one time Raney's domed theaters were to be found through the West; alas, most of these have been demolished. Although not domes, the BAL theater in San Leandro and the Sierra theater in Delano remain standing.</p>",
+      "images": {
+        "thumbnail": "1-1",
+        "gallery": ["1-1", "1-2"]
+      }
+    },
+    {
+      "id": 2,
+      "city": "San Francisco",
+      "county": "San Francisco",
+      "neighborhood_district": "Lakeside",
+      "architect": "Harold G. Stoner",
+      "architectural_style": "West Indian Colonial",
+      "interior_decorator": "Alexander Penedel of John Bruner Co., San Francisco",
+      "value_original": 21500,
+      "value_current": 2700000,
+      "notes": "<p>Prolific architect Harold G. Stoner (1890-1971) designed numerous homes in San Francisco, particularly south and west of Twin Peaks, and elsewhere in the Bay Area (see <a href='/homes/6'>Model Home #6</a>). Stoner was adept in many different styles, including the restrained elegance of this house. In another connection to GGIE, Stoner designed the building which housed Sally Rand's Nude Ranch in the \"Gayway\" amusement zone! For more information on the architect see <cite>Bay Area Beauty: The Artistry Of Harold G. Stoner</cite> by Jacqui Proctor.</p><p>Outwardly unchanged from 1939 appearance.</p>",
+      "images": {
+        "thumbnail": "2-1",
+        "gallery": [
+          "2-1",
+          "2-2"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "city": "San Francisco",
+      "county": "San Francisco",
+      "neighborhood_district": "Sunset/Pine Lake Park",
+      "architect": "Donnell Jaekle",
+      "architectural_style": "Regency",
+      "interior_decorator": "Paul C. Jones",
+      "value_original": 6000,
+      "value_current": 1200000,
+      "notes": "<p>This is a fairly typical house of San Francisco's fog belt. The Sunset District is filled with hundreds, if not thousands, of similar, cookie-cutter style dwellings.</p><p>Donnell Jaekle was described as a \"fashionable\" architect of his day.</p><p>Outwardly unchanged from 1939 appearance.</p>",
+      "images": {
+        "thumbnail": "3-1",
+        "gallery": [
+          "3-1"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "city": "Belvedere",
+      "county": "Marin",
+      "neighborhood_district": "Belvedere Island",
+      "architect": "William Wurster",
+      "architectural_style": "Modern Colonial",
+      "interior_decorator": "Louis Dix Druehl",
+      "value_original": 25000,
+      "value_current": 10500000,
+      "notes": "<p>William Wurster (1895-1973) was one of the leading architects of his time and doubtless the biggest \"name\" involved in the Model Home program. Among his designs were the Center for Advanced Study In the Behavioral Sciences at Stanford University (1954), Stern Hall at UC Berkeley (1942), and Valencia Gardens Public Housing in San Francisco (1945). He served as Dean of the UC Berkeley School Of Architecture from 1950 to 1963. In 1939 alone he was involved in more that 60 projects, most of which were single family residences, including two of which (Model Home #4 and <a href='/homes/7'>Model Home #7</a>), were included in the Model Homes Tour. For more information on the architect see <cite>An Everyday Modernism: The Houses Of William Wurster</cite> by Marc Treib (1995).</p><p>Thomas Church served as landscape architect on this project.</p>",
+      "images": {
+        "thumbnail": "4-1",
+        "gallery": [
+          "4-1"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "city": "San Anselmo",
+      "county": "Marin",
+      "neighborhood_district": "Brookside Meadows",
+      "architect": "Carl F. Gromme",
+      "architectural_style": "Irish Cottage",
+      "interior_decorator": "Edwin A. Hunt",
+      "value_original": 7400,
+      "value_current": 1700000,
+      "notes": "<p>Architect C. F. Gromme (1898-1980) supposedly based his design on a drawing of a traditional Irish cottage obtained from the Irish Consulate in San Francisco.</p><p>Original house was 886 square feet with 2 bedrooms and one bath, and has since been enlarged.</p><p>Little changed in outward appearance from 1939.</p>",
+      "images": {
+        "thumbnail": "5-1",
+        "gallery": [
+          "5-1",
+          "5-2"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "city": "San Anselmo",
+      "county": "Marin",
+      "neighborhood_district": "Sleepy Hollow",
+      "architect": "Harold G. Stoner",
+      "architectural_style": "Early Californian/Mexican Ranch House",
+      "interior_decorator": "Sterling Furniture Company Of San Francisco",
+      "value_original": 12500,
+      "value_current": 3600000,
+      "notes": "<p>For more information on architect Harold G. Stoner, see <a href='/homes/2'>Model Home #2</a>.</p><p>The current structure has been considerably expanded from the original home.</p><p>Could not see all of the front facade due to blockage by hedge. First floor seems unchanged from 1939. The recessed second story addition the matches style of original section beautifully. Nicely done!</p>",
+      "images": {
+        "thumbnail": "6-1",
+        "gallery": [
+          "6-1",
+          "6-2"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "city": "Kentfield",
+      "county": "Marin",
+      "neighborhood_district": "Kent Woodlands",
+      "architect": "William Wurster",
+      "architectural_style": "California Ranch",
+      "interior_decorator": "Maurice Sands Of San Francisco",
+      "value_original": 25000,
+      "value_current": 2100000,
+      "notes": "<p>For more information on architect William Wurster see <a href='/homes/4'>Model Home #4</a>.</p><p>Brick chimney is only part of house visible from street.</p><p>Reportedly, many who toured this home during 1939/40 found it unappealing due to the austerity of its architecture!</p>",
+      "images": {
+        "thumbnail": "7-1",
+        "gallery": [
+          "7-1"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "city": "Millbrae",
+      "county": "San Mateo",
+      "neighborhood_district": "Millbrae Highlands",
+      "architect": "Oscar R. Thayer",
+      "architectural_style": "California-Monterey",
+      "interior_decorator": "Sterling Furniture Company Of San Francisco (Charles Miller, decorator)",
+      "value_original": 15000,
+      "value_current": 2700000,
+      "notes": "<p>No information was available on architect Oscar R. Thayer.</p><p>Visibility of this rather bland house is somewhat obscured by fences and trees.</p>",
+      "images": {
+        "thumbnail": "8-1",
+        "gallery": [
+          "8-1"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "city": "Burlingame",
+      "county": "San Mateo",
+      "neighborhood_district": "Oak Grove Manor",
+      "architect": "Leo J. Sharps",
+      "architectural_style": "French Normandy",
+      "interior_decorator": "Hale Brothers Of San Francisco",
+      "value_original": 10750,
+      "value_current": 3800000,
+      "notes": "<p>No information was available on architect Leo J. Sharps.</p><p>Visibility marginally obscured by large trees in front yard.</p><p>Dormers in roof indicate that a second story was added. The ground level appears unchanged from 1939.</p>",
+      "images": {
+        "thumbnail": "9-1",
+        "gallery": [
+          "9-1",
+          "9-2"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "city": "San Mateo",
+      "county": "San Mateo",
+      "neighborhood_district": "Sunnybrae",
+      "architect": "John Knox Ballentine Jr.",
+      "architectural_style": "Early California Farm House",
+      "interior_decorator": "Lachman Brothers Of San Francisco",
+      "value_original": 4680,
+      "value_current": 1700000,
+      "notes": "<p>No information was available on architect John Knox Ballentine Jr.</p><p>This charming small house, located in the delightful Sunnybrae District of San Mateo, is a personal favorite. It appears little changed from its original appearance.</p><p>Identical or nearly identical homes can be found in several places in the area.</p>",
+      "images": {
+        "thumbnail": "10-1",
+        "gallery": [
+          "10-1",
+          "10-2"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "city": "San Mateo",
+      "county": "San Mateo",
+      "neighborhood_district": "Baywood Knolls",
+      "architect": "Angus McSweeney",
+      "architectural_style": "California Vernacular",
+      "interior_decorator": "Emporium Of San Francisco",
+      "value_original": 18180,
+      "value_current": 3700000,
+      "notes": "<p>Architect Angus McSweeney (1900-1971) was at one time employed by Willis Polk. He designed a number of houses on the Peninsula, including Model House #11. He was also the architect for several San Francisco high-rises located on Nob Hill and Russian Hill, and in Pacific Heights and Stonestown. McSweeney also collaborated on the design of San Francisco's Saint Mary's Cathedral, which was completed the year of his death.</p>",
+      "images": {
+        "thumbnail": "11-1",
+        "gallery": [
+          "11-1",
+          "11-2"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "city": "San Mateo",
+      "county": "San Mateo",
+      "neighborhood_district": "San Mateo Terrace",
+      "architect": "Arthur G. Janssen",
+      "architectural_style": "California Vernacular",
+      "interior_decorator": "Charles Miller",
+      "value_original": 6750,
+      "value_current": 2300000,
+      "notes": "<p>Arthur G. Janssen is described as a Peninsula architect.</p><p>Apart from an addition to the front of the garage, this house appears unchanged from its 1939 appearance.</p>",
+      "images": {
+        "thumbnail": "12-1",
+        "gallery": [
+          "12-1",
+          "12-2"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "city": "Redwood City",
+      "county": "San Mateo",
+      "neighborhood_district": "Edgewood Park",
+      "architect": "Arthur G. Janssen",
+      "architectural_style": "Old California Hacienda",
+      "interior_decorator": "Peninsula Furniture Company Of Palo Alto",
+      "value_original": 21500,
+      "value_current": 4000000,
+      "notes": "<p>Arthur G. Janssen is described as a Peninsula architect.</p><p>This is the first Model Home we happened upon.</p>",
+      "images": {
+        "thumbnail": "14-1",
+        "gallery": [
+          "14-1",
+          "14-2",
+          "14-3"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "city": "Woodside",
+      "county": "San Mateo",
+      "neighborhood_district": "Woodside Hills",
+      "architect": "Gardner Dailey",
+      "architectural_style": "Modern Country Estate",
+      "interior_decorator": "City Of Paris, San Francisco, in cooperation with Good Housekeeping Magazine",
+      "value_original": 45000,
+      "value_current": 4500000,
+      "notes": "<p>Other than William Wurster, Gardner Dailey (1895-1967) is the most famous architect associated with the Model Homes project. Dailey and Wurster were the leading advocates of \"modern\" architecture in Northern California during the mid-20th Century. In addition to many private residences, Dailey designed the Brazil Pavilion at the 1939 World's Fair on Treasure Island, many buildings at UC Davis (1959-1968), and the Physics Lecture Hall at Stanford (1965).</p><p>Dailey often collaborated with famed landscape architect Thomas Church (1902-1976), including on this house.</p><p>Model Home #15 was also known as the <cite>Good Housekeeping</cite> House, and was the only residence to receive that magazine's \"Shield Of Merit\" in 1939.</p><p>Architect Dailey was purportedly dissatisfied with the traditional furniture provided by the City of Paris, thinking it unsuited to his modernistic design.</p>",
+      "images": {
+        "thumbnail": "15-1",
+        "gallery": [
+          "15-1"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "city": "Menlo Park",
+      "county": "San Mateo",
+      "neighborhood_district": "Felton Gables",
+      "architect": "Allen C. Collins",
+      "architectural_style": "California Ranch",
+      "interior_decorator": "Gladys Layton of San Mateo",
+      "value_original": 12500,
+      "value_current": 4300000,
+      "notes": "<p>Architect Allen C. Collins (1888-1950) was involved in partnerships with several other architects, including Delbert H. Main, Warren Skillings, Walter Graves Byrne, and J.H. De Lange. He practiced at various times in San Jose, Santa Cruz, and Watsonville.</p><p>In 1936 Collins was hired by a Fresno builder as a \"captive\" architect, designing custom homes throughout the Central San Joaquin Valley.</p><p>In 1939, when he designed Model Home #16 he was working out of the Monterey office of Walter B. Snook. The notoriety he received from his design prompted him to move to Oakland. In the mid-1940's Collins moved back to Watsonville, where he was working at the time of his death.</p>",
+      "images": {
+        "thumbnail": "16-1",
+        "gallery": [
+          "16-1",
+          "16-2"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "city": "Palo Alto",
+      "county": "Santa Clara",
+      "neighborhood_district": "Leland Manor",
+      "architect": "B.M. & D.B. Clark",
+      "architectural_style": "Modernized Craftsman",
+      "interior_decorator": "W. & J. Sloane Of San Francisco",
+      "value_original": 27500,
+      "value_current": 7300000,
+      "notes": "<p>Birge Malcolm Clark (1893-1989) was Palo Alto's most popular and prolific architect during his lifetime.  He assisted his father, Arthur Bridgman Clark, and Lou Henry Hoover in designing the Hoover House, now residence of the president of Stanford University. His Palo Alto public buildings include the Addison School (1924), the Pacific Art League (1926), the Lucie Stern Community Center (1932-36), the U.S. Post Office (1932), and the Palo Alto Medical Center (1932). Among his many private residences is the Dunker House (1925), which is on the National Register of Historic Places. On Model Home #17 Birge was assisted by his brother, David B. Clark (d. 1944), who had joined the firm in 1933.</p>",
+      "images": {
+        "thumbnail": "17-1",
+        "gallery": [
+          "17-1",
+          "17-2"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "city": "Menlo Park",
+      "county": "San Mateo",
+      "neighborhood_district": "Belle Haven City",
+      "architect": "Douglas Dacre Stone",
+      "architectural_style": "California Vernacular",
+      "interior_decorator": "Peninsula Furniture Company Of Palo Alto",
+      "value_original": 10500,
+      "value_current": 2500000,
+      "notes": "<p>Although born in Japan, architect Douglas Dacre Stone (1897-1969) spent his entire professional career in the Bay Area. He was especially known for his design of hospitals, including Children's of the East Bay (Oakland; 1945), Sequoia (Redwood City; 1952), U.S. Public Health Service (San Francisco; 1953), Brookside (Rodeo; 1952-54), Eden (Hayward; 1954), Peninsula (San Mateo; 1954), Peralta (Oakland; 1954), Sutter Community (Sacramento; 1955), and Bakersfield Memorial (Bakersfield; 1956). Stone also designed the Art Deco Mary A. Bowles Building (1715 Broadway, Oakland) with its lovely green terra cotta ornamentation.</p><p>Belle Haven is a 254-acre neighborhood within the City of Menlo Park. When Model Home #18 was built the area was unincorporated. Annexation came in the early 1950s. In the later 1950's the U.S. 101 Freeway was built, cutting off Belle Haven from the rest of Menlo Park, with Willow Road being the only connector.</p>",
+      "images": {
+        "thumbnail": "18-1",
+        "gallery": [
+          "18-1"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "city": "San Leandro",
+      "county": "Alameda",
+      "neighborhood_district": "New Broadmore",
+      "architect": "Irwin M. Johnson",
+      "architectural_style": "Modern Colonial",
+      "interior_decorator": "John Breuner Company of Oakland",
+      "value_original": 10500,
+      "value_current": 1600000,
+      "notes": "<p>No information was available on architect Irwin M. Johnson.</p>",
+      "images": {
+        "thumbnail": "19-1",
+        "gallery": [
+          "19-1",
+          "19-2"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "city": "Oakland",
+      "county": "Alameda",
+      "neighborhood_district": "Oak Knolls",
+      "architect": "Charles F. Maury",
+      "architectural_style": "Swedish Modern",
+      "interior_decorator": null,
+      "value_original": 6000,
+      "value_current": 750000,
+      "notes": "<p>No information was available on architect Charles F. Maury.</p>",
+      "images": {
+        "thumbnail": "20-1",
+        "gallery": [
+          "20-1"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "city": "Oakland",
+      "county": "Alameda",
+      "neighborhood_district": "Piedmont Pines (LeMon Section)",
+      "architect": "F. H. Slocombe",
+      "architectural_style": "Chateau Longue Vue",
+      "interior_decorator": null,
+      "value_original": null,
+      "value_current": 1300000,
+      "notes": "<p>Oakland architect F.H. Slocombe also designed the Mapes Hotel in Reno, Nevada in 1947. This iconic structure was unfortunately demolished in 1982.</p><p>Oakland Wiki cites Frederick Confer see (<a href=\"/homes/28\">Model Home #28</a>) as the architect of this home.</p>",
+      "images": {
+        "thumbnail": "21-1",
+        "gallery": [
+          "21-1"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "city": "Oakland",
+      "county": "Alameda",
+      "neighborhood_district": "Montclair Highlands",
+      "architect": "John B. Hudspeth",
+      "architectural_style": "Ranch House",
+      "interior_decorator": null,
+      "value_original": 9500,
+      "value_current": 1300000,
+      "notes": "<p>Oakland architect John Hudspeth also designed the 1941 Greyhound Lines Depot in Berkeley Square, the UC Engineering Field Station Headquarters in Richmond, and the Olinda Elementary School in El Sobrante. He was one of the architects used by Mason-McDuffie Co. in their real estate projects, although the present house was built by J.R. Armstrong for developers Emge and Stockman.</p>",
+      "images": {
+        "thumbnail": "23-1",
+        "gallery": [
+          "23-1"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "city": "Orinda",
+      "county": "Contra Costa",
+      "neighborhood_district": "Moraga Woodlands",
+      "architect": "John B. Anthony",
+      "architectural_style": "Modern Colonial Ranch House",
+      "interior_decorator": "John Breuner Company Of Oakland",
+      "value_original": 22500,
+      "value_current": 1900000,
+      "notes": "<p>Oakland-based architect John B. Anthony (1896-1979) was born Anton Boyko in Newark, New Jersey.  His family moved to California, where he earned both an A.B. and an M.A. from U.C. Berkeley. He worked as a draftsman for famed Bay Area architects Timothy Pfleuger and William Wurster (see <a href=\"/homes/4\">Model Home #4</a> and <a href=\"/homes/7\">Model Home #7</a>), before opening his own office. His most famous design is that of the Joseph W. Harris house, City of Berkeley Landmark #14.</p>",
+      "images": {
+        "thumbnail": "24-1",
+        "gallery": [
+          "24-1"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "city": "Lafayette",
+      "county": "Contra Costa",
+      "neighborhood_district": "Happy Valley",
+      "architect": "Earl MacDonald",
+      "architectural_style": "California Ranch House",
+      "interior_decorator": "Doris Connor of Berkeley",
+      "value_original": 12000,
+      "value_current": 2900000,
+      "notes": "<p>Architect Earl MacDonald (b. 1896) was employed as a draftsman/designer from 1920-1932 in the illustrious San Francisco firm of Bakewell and Brown. He is shown as living in Oakland in 1934, the same year he opened an office in San Diego! His most notable design was that of the San Diego County Superior Court Building #3, dating from 1960-1961. I was unable to find a DOD for this architect.</p>",
+      "images": {
+        "thumbnail": "25-1",
+        "gallery": [
+          "25-1"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "city": "El Cerrito",
+      "county": "Contra Costa",
+      "neighborhood_district": "Mira Vista",
+      "architect": "Keith Narbett",
+      "architectural_style": "Hill Top Home",
+      "interior_decorator": "John Breuner Company Of Richmond and Oakland",
+      "value_original": 12000,
+      "value_current": 1600000,
+      "notes": "<p>Richmond architect Keith O. Narbett's father, James T. Narbett (1874-1936) was in his day one of the busiest architects in Northern California. Son Keith graduated from the University of California at Berkeley's Architecture School and followed in his father's footsteps, working on the award-winning Acalanes High School in Lafayette, as well as hundreds of dwelling units for the Richmond and Pittsburg Housing Authorities during World War II.</p>",
+      "images": {
+        "thumbnail": "26-1",
+        "gallery": [
+          "26-1",
+          "26-2"
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "city": "Berkeley",
+      "county": "Alameda",
+      "neighborhood_district": "North Cragmont",
+      "architect": "Paul H. Hammarberg",
+      "architectural_style": "California Colonial",
+      "interior_decorator": "Jackson Furniture Company of Oakland",
+      "value_original": 12000,
+      "value_current": 2100000,
+      "notes": "<p>Paul H. Hammarberg has been described as one of the Bay Area's most successful Mid-Century Modern architects. His parents were natives of Sweden. Hammarberg graduated from U.C. Berkeley's School Of Architecture in 1933. He designed or helped design shopping centers, apartments, and condominiums, as well as many single-family dwellings. Among his most famous, or infamous, creations were the Fontana Towers on North Point in San Francisco.  They have been called \"abominations\" and are included in a list of the Ten Ugliest Condo Buildings in San Francisco.  A Berkeley Landmarks Preservation Commission Report from 2023 contained this remark: <q>Despite what was an apparently long and successful career, Hammarberg's known projects are few and none are known to have been recognized as noteworthy or important architectural works.</q> Ouch!</p>",
+      "images": {
+        "thumbnail": "27-1",
+        "gallery": [
+          "27-1",
+          "27-2"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "city": "Berkeley",
+      "county": "Alameda",
+      "neighborhood_district": "Park Hills",
+      "architect": "Frederick L. Confer",
+      "architectural_style": "Modern",
+      "interior_decorator": "James Swearingen of Oakland",
+      "value_original": 25000,
+      "value_current": 2500000,
+      "notes": "<p>Oakland architect Frederick L. Confer (1903-1970) designed many East Bay residences, most notably Tao House in Danville, built for famous playwright Eugene O'Neill and his wife, Carlotta Monterey, in 1936-37. According to Oakland Wiki he also designed <a href=\"/homes/21\">Model House #21</a>, although other sources identify F.H. Slocombe as the architect of that residence.</p>",
+      "images": {
+        "thumbnail": "28-1",
+        "gallery": [
+          "28-1"
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "city": "Berkeley",
+      "county": "Alameda",
+      "neighborhood_district": "Park Hills Area",
+      "architect": "Clarence W. W. Mayhew",
+      "architectural_style": "Colonial",
+      "interior_decorator": "Arthur and Grace Mauerhan",
+      "value_original": 15000,
+      "value_current": 2100000,
+      "notes": "<p>The construction of Model Home #29 was sponsored by <cite>Sunset</cite> magazine, leading to its cognomen of Sunset House. Although Clarence W. W. Mayhew was the official architect, he was \"assisted\" by 300 members of the Berkeley Women's Club, who compiled a list of \"must haves\" and \"don't wants\" for the dwelling. This is according to an article from the <cite>San Francisco Chronicle</cite> of Sunday, 23 June, 1940. The same news clipping describes the house as being <q>…on the Crescent, facing one of the finest views of Charles Lee Tilden Regional Park…</q>. Mayhew (1906-1994) designed many residential structures in the Bay Area, most notably the 1937 Manor House in Orinda. Mayhew and his wife were very active socially. He belonged to the exclusive Bohemian Club, where he was known as \"Hap\".</p>",
+      "images": {
+        "thumbnail": "29-1",
+        "gallery": [
+          "29-1"
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "city": "Berkeley",
+      "county": "Alameda",
+      "neighborhood_district": "Bayshore Terrace",
+      "architect": "Clarence Tantau",
+      "architectural_style": "European Modernist",
+      "interior_decorator": null,
+      "value_original": null,
+      "value_current": 825000,
+      "notes": "<p>Clarence Tantau (1884-1943) was a Bay Area architect who specialized in single-family dwellings.  He was active in Monterey and Santa Cruz as well as Oakland, Berkeley, and Piedmont. He worked mostly in the Spanish Colonial Revival style, although Model Home #30 does not reflect this proclivity. One of his Pebble Beach mansions was owned and occupied by the noted thespian, film director, and politician Clint Eastwood. This house is, for Tantau, uncharacteristically small (572 square feet!) and is one of only two Model Homes currently valued at less than one million dollars, the other being <a href=\"/homes/20\">Model Home #20</a>.</p>",
+      "images": {
+        "thumbnail": "30-1",
+        "gallery": [
+          "30-1"
+        ]
+      }
+    }
+  ]
+}
