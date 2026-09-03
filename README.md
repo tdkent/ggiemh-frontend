@@ -6,7 +6,7 @@
 
 ### Description
 
-`ggiemh.com` is a content-driven website that documents the rediscovered "model homes" built around the San Francisco Bay Area for the Model Home project of the Golden Gate International Exposition, a World's Fair held on Treasure Island in 1939-40. This application emphasizes solid architecture, reliability testing, improved performance via caching, and automated cloud deployment.
+`ggiemh.com` is a content-driven website that documents the rediscovered "model homes" built around the San Francisco Bay Area for the Model Home project of the Golden Gate International Exposition, a World's Fair held on Treasure Island in 1939-40. This application emphasizes solid architecture, reliability testing, and automated cloud deployment.
 
 ### Features Overview
 
@@ -27,7 +27,6 @@ UI testing is carried out using Vitest and RTL. Integration test coverage includ
 - UI Library: `React`
 - Components & Styling: `Radix` w/ `shadcn`, `Tailwind CSS`
 - Routing Library: `React Router`
-- Fetch Library: `Tanstack Query`
 - Image Processing: `sharp`
 - Lint &amp; Format: `Biome`, `Husky` (pre-commit)
 - Testing: `Vitest`, `React Testing Library`
@@ -60,12 +59,6 @@ flowchart LR
 
 ## UI
 
-### Data Fetching
-
-Using Tanstack Query, fetched data is cached in the user's browser. Once a route's data has been cached, any repeat requests to the webpage where the route originates will prompt TQ to pull the data from the cache rather than send another request to the server. Because the website has infrequent updates, the default "stale" time (i.e., the time until the route's data is considered outdated and needing a refetch) for routes is a fairly long 24 hours.
-
-In addition to reducing unnecessary requests to `ggiemh.com`'s REST API, this caching strategy greatly reduces (or outright eliminates) page load time.
-
 ### HTML Parsing
 
 Website content is fetched from a REST API, including raw HTML strings. Each string is sanitized using `dompurify` (a defensive measure to prevent Cross-Site Scripting (XSS) attacks, even though none of the content is user-generated) then parsed for rendering using `html-react-parser`.
@@ -80,13 +73,11 @@ Images are cached and served via CloudFront CDN.
 
 "Lazy loading" of images, a process that delays loading images until they are actually in the user's display, is utilized to improve performance and load times.
 
-While image data loads, placeholder "Loading..." elements provide continuity and prevent layout shift.
-
 ## Additional Information
 
 ### Links
 
-- [Backend repository](https://github.com/tdkent/ggiemh-backend)
+- [Backend repository (Archived)](https://github.com/tdkent/ggiemh-backend)
 - [Visit ggiemh.com](https://ggiemh.com)
 
 ### Local Development
@@ -106,13 +97,4 @@ npm run test
 
 # Build
 npm run build
-```
-
-#### Environment variables
-
-```
-.env
-
-VITE_BACKEND_URL=http://localhost:<PORT>
-VITE_ASSETS_URL=https://ggiemh.com/assets
 ```
