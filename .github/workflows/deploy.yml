@@ -43,7 +43,6 @@ jobs:
       - name: Create dist
         env:
           VITE_ASSETS_URL: ${{ vars.VITE_ASSETS_URL }}
-          VITE_BACKEND_URL: ${{ vars.VITE_BACKEND_URL }}
         run: npm run build
           
       - name: Configure AWS credentials

@@ -1,5 +1,4 @@
 // Env
-export const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 export const ASSETS_URL = import.meta.env.VITE_ASSETS_URL;
 
 // Images
